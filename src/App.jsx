@@ -4,7 +4,7 @@ import EarthquakeAnticipation from "./components/EarthquakeStatus"
 import EarthquakeImpacts from "./components/EarthquakeImpacts"
 import EarthquakeEvacuation from "./components/EarthquakeEvacuation"
 import EarthquakeHistory from "./components/EartthquakeHistory"
-import End from "./components/End"
+// import End from "./components/End"
 
 function App() {
   return (
@@ -19,7 +19,7 @@ function App() {
         <EarthquakeAnticipation />
         <EarthquakeEvacuation />
         <EarthquakeImpacts />
-        <End />
+{/*         <End /> */}
       </main>
     </>
   );
