@@ -1,0 +1,33 @@
+.spacer {
+    height: 60vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+  }
+  
+  .lineSection {
+    border-bottom:2px solid #777;
+    padding:3vw;
+    display:flex;
+    align-items:center;
+  }
+  
+  .number {
+    font-size:180px;
+    width:140px;
+    text-align:center;
+    margin-right: 30px;
+  }
+  
+  .lineHolder {
+    width:20px;
+    height:200px;
+    overflow:hidden;
+    background:#222;
+  }
+  
+  .line {
+    width:100%;
+    height:100px;
+    background:#ff7b3e; /* orange */
+  }

@@ -1,0 +1,55 @@
+.wrapper {
+    overflow-x: hidden;
+    position: relative;
+}
+
+.container {
+    display: flex;
+    width: 300vw;
+}
+
+.container .col {
+    display: flex;
+    gap: 3em;
+}
+
+.container .col h1 {
+    font-weight: 500;
+}
+
+.container section {
+    width: 100vw;
+    padding: 20vw 10vw;
+}
+.container section.head {
+    width: 100vw;
+}
+
+
+.container section p {
+    font-size: 1.2rem;
+    width: 50vw;
+}
+
+.container section h2.head {
+    width: 100vw;
+}
+
+.container section ul {
+    list-style-type: none;
+    display: flex;
+    gap: 3em;
+    width: 100%;
+    height: 300px;
+    padding: 0;
+}
+
+.container section ul li {
+    background: white;
+    border-radius: 0.3em;
+    flex-grow: 1;
+}
+
+section {
+    height: 100vh;
+}
